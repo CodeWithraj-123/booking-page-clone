@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+    max-width: 100%;
+    margin: auto;
+    height: 60px;
+}
+
+.box {
+    background-color: #003b95;
+    height: 60vh;
+}
+
+nav .first-div {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav .sec-div span {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+button {
+    margin: 0px 10px 0px 10px;
+    background-color: wheat;
+    border: rgb(56, 126, 255);
+    border-radius: 4px;
+    color: rgb(8, 8, 187);
+    font-family: sans-serif;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sec-div img {
+    width: 20px;
+    border-radius: 10px;
+}
+
+.white {
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.white h5 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.white img {
+    width: 100px;
+    text-align: center;
+    padding: 0px 625px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 100px;
+}
+
+.text :nth-child(1) {
+    color: white;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.text :nth-child(2) {
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp button {
+    padding: 10px 60px;
+    margin: 30px;
+    border: 4px solid rgb(216, 121, 66);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 93, 228);
+    font-size: 20px;
+}
+
+.tick {
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.first {
+    display: flex;
+    padding: 20px 70px;
+    gap: 40px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.img389 img {
+    border-radius: 5px;
+    width: 220px;
+    height: 200px;
+}
+
+.img389 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sepration {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding: 20px 100px;
+    font-size: 13px;
+}
+
+.img400 img{
+    border-radius: 5px;
+    width: 220px;
+    height: 200px;
+}
+
+.sec{
+    display: flex;
+    padding: 20px 70px;
+    gap: 40px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.third{
+    display: inline-flex;
+    padding: 20px 110px;
+    gap: 40px;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0px 61px;
+}
+.img500 img{
+    border-radius: 5px;
+    width: 220px;
+    height: 200px;
+}
+footer  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 900vw;
+    padding: 30px;
+    margin: auto;
+    gap: 20px;
+}
+.grid{
+    display: flex;
+    flex-direction:row;
+}
+.grid a{
+    text-decoration: none;
+    color: rgb(75, 75, 212);
+    margin: 10px 110px;
+    gap: 40;
+
+}
+.item :hover{
+color: rgb(136, 45, 45);
+}
+.item{
+    font-size: 15px;
+}
